@@ -1,19 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Axios } from 'axios';
 
-import { random, commerce } from 'faker';
+import { random } from 'faker';
 import { Container, Col, Row } from 'reactstrap';
 
 import CardItem from './CardItem';
-
-// const apiKey =
-// const fetchPhotos = async () => {
-//     const response = await Axios.get(url, {
-//         header: {
-//             Authorization : apiKey
-//         }
-//     })
-// }
 
 const BuyPage = ({ addInCart }) => {
   const [product, setProduct] = useState([]);

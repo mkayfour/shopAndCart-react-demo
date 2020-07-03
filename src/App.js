@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
-import logo from './logo.svg';
 import './App.css';
 import BuyPage from './components/BuyPage';
 import Cart from './components/Cart';

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import {
   Container,
@@ -29,7 +29,7 @@ const Cart = ({ cartItem, buyNow, removeItem }) => {
           <ListGroupItem key={item.id}>
             <Row>
               <Col>
-                <img height={80} src={item.tinyImage} />
+                <img height={80} src={item.tinyImage} alt="product"/>
               </Col>
               <Col className='text-center'>
                 <div className='text-primary'>{item.productName}</div>
