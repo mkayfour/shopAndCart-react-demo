@@ -3,7 +3,6 @@
 # dependencies
 /node_modules
 /netlify
-/build
 /.pnp
 .pnp.js
 
